@@ -19,5 +19,5 @@ Este projeto foi desenvolvido para construir um site usando o método de boas pr
 
 ### Via terminal, rode os seguintes comandos:
 ```
-git clone https://github.com/felipcb/EbacTestePonta.git
+git clone https://github.com/felipcb/22-10-16-frontEnd-Games.git
 ```
