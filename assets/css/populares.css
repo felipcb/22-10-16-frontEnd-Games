@@ -4,8 +4,7 @@
 
 .populares__conteudo {
     display: flex;
-    flex-wrap: wrap;
-    grid-area: conteudo;
+    flex-wrap: wrap;   
     padding: 1rem 0;
 }
 
@@ -31,9 +30,7 @@
 .populares__card___corpo {
     display: grid;
     grid-area: card-corpo;
-    height: 100%;
-    width: 100%;
-    row-gap: .75rem;
+    row-gap: .5rem;
     grid-template-areas: 
         "card-cabecalho"
         "card-conteudo";
@@ -67,7 +64,7 @@
 }
 
 .populares__cabecalho {
-    border-bottom: 1px;
+    border-bottom: 1px solid #dcdcdc;
     display: flex;
     justify-content: space-between;
 }

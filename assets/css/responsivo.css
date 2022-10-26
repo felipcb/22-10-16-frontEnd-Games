@@ -29,14 +29,15 @@
 
     .populares__conteudo {
         flex-direction: column;
-    }
+    }    
 
     .populares__card {
         grid-template-rows: 150px auto;
-        margin-right: 0;
         margin-bottom: 3rem;
+        margin-right: 0;
         width: 100%;
     }
+
  }
 
  @media screen and (min-width: 768px) {
@@ -77,16 +78,20 @@
 
     .populares__card {
         grid-template-rows: 173px auto;
-        margin-bottom: 3rem;
         margin-right: 1rem;
-        width: calc(40% -1rem);
+        width: calc(50% - 1rem);
     }
 }
 
 @media screen and (min-width: 922px) {
-    
+    .populares__card {
+        width: calc(33.33% - 1rem);
+    }
 }
 
 @media screen and (min-width: 1200px) {
-    
+    .populares__card {
+        margin-bottom: 0; 
+        width: calc(20% - 1rem);
+    }
 }
